@@ -1,0 +1,12 @@
+{
+  "name": "demo-zod-contracts",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "scripts": {
+    "prepublish": "rm -rf build & tsc"
+  }
+}
